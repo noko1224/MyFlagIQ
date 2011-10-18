@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E132160144DDB55003BDDEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E13215F144DDB55003BDDEA /* UIKit.framework */; };
+		1E132162144DDB55003BDDEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E132161144DDB55003BDDEA /* Foundation.framework */; };
+		1E132164144DDB55003BDDEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E132163144DDB55003BDDEA /* CoreGraphics.framework */; };
+		1E13216A144DDB56003BDDEA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E132168144DDB56003BDDEA /* InfoPlist.strings */; };
+		1E13216D144DDB56003BDDEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E13216C144DDB56003BDDEA /* main.m */; };
+		1E132170144DDB56003BDDEA /* MyFlagIQAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E13216F144DDB56003BDDEA /* MyFlagIQAppDelegate.m */; };
+		1E132173144DDB56003BDDEA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E132171144DDB56003BDDEA /* MainWindow.xib */; };
+		1E132176144DDB56003BDDEA /* MyFlagIQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E132175144DDB56003BDDEA /* MyFlagIQViewController.m */; };
+		1E132179144DDB56003BDDEA /* MyFlagIQViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E132177144DDB56003BDDEA /* MyFlagIQViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E13215B144DDB55003BDDEA /* MyFlagIQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFlagIQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E13215F144DDB55003BDDEA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E132161144DDB55003BDDEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1E132163144DDB55003BDDEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1E132167144DDB56003BDDEA /* MyFlagIQ-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyFlagIQ-Info.plist"; sourceTree = "<group>"; };
+		1E132169144DDB56003BDDEA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E13216B144DDB56003BDDEA /* MyFlagIQ-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFlagIQ-Prefix.pch"; sourceTree = "<group>"; };
+		1E13216C144DDB56003BDDEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E13216E144DDB56003BDDEA /* MyFlagIQAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFlagIQAppDelegate.h; sourceTree = "<group>"; };
+		1E13216F144DDB56003BDDEA /* MyFlagIQAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFlagIQAppDelegate.m; sourceTree = "<group>"; };
+		1E132172144DDB56003BDDEA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		1E132174144DDB56003BDDEA /* MyFlagIQViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFlagIQViewController.h; sourceTree = "<group>"; };
+		1E132175144DDB56003BDDEA /* MyFlagIQViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFlagIQViewController.m; sourceTree = "<group>"; };
+		1E132178144DDB56003BDDEA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MyFlagIQViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E132158144DDB55003BDDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E132160144DDB55003BDDEA /* UIKit.framework in Frameworks */,
+				1E132162144DDB55003BDDEA /* Foundation.framework in Frameworks */,
+				1E132164144DDB55003BDDEA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E132150144DDB55003BDDEA = {
+			isa = PBXGroup;
+			children = (
+				1E132165144DDB55003BDDEA /* MyFlagIQ */,
+				1E13215E144DDB55003BDDEA /* Frameworks */,
+				1E13215C144DDB55003BDDEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E13215C144DDB55003BDDEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E13215B144DDB55003BDDEA /* MyFlagIQ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E13215E144DDB55003BDDEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E13215F144DDB55003BDDEA /* UIKit.framework */,
+				1E132161144DDB55003BDDEA /* Foundation.framework */,
+				1E132163144DDB55003BDDEA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E132165144DDB55003BDDEA /* MyFlagIQ */ = {
+			isa = PBXGroup;
+			children = (
+				1E13216E144DDB56003BDDEA /* MyFlagIQAppDelegate.h */,
+				1E13216F144DDB56003BDDEA /* MyFlagIQAppDelegate.m */,
+				1E132171144DDB56003BDDEA /* MainWindow.xib */,
+				1E132174144DDB56003BDDEA /* MyFlagIQViewController.h */,
+				1E132175144DDB56003BDDEA /* MyFlagIQViewController.m */,
+				1E132177144DDB56003BDDEA /* MyFlagIQViewController.xib */,
+				1E132166144DDB56003BDDEA /* Supporting Files */,
+			);
+			path = MyFlagIQ;
+			sourceTree = "<group>";
+		};
+		1E132166144DDB56003BDDEA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E132167144DDB56003BDDEA /* MyFlagIQ-Info.plist */,
+				1E132168144DDB56003BDDEA /* InfoPlist.strings */,
+				1E13216B144DDB56003BDDEA /* MyFlagIQ-Prefix.pch */,
+				1E13216C144DDB56003BDDEA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E13215A144DDB55003BDDEA /* MyFlagIQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E13217C144DDB56003BDDEA /* Build configuration list for PBXNativeTarget "MyFlagIQ" */;
+			buildPhases = (
+				1E132157144DDB55003BDDEA /* Sources */,
+				1E132158144DDB55003BDDEA /* Frameworks */,
+				1E132159144DDB55003BDDEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFlagIQ;
+			productName = MyFlagIQ;
+			productReference = 1E13215B144DDB55003BDDEA /* MyFlagIQ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E132152144DDB55003BDDEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1E132155144DDB55003BDDEA /* Build configuration list for PBXProject "MyFlagIQ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1E132150144DDB55003BDDEA;
+			productRefGroup = 1E13215C144DDB55003BDDEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E13215A144DDB55003BDDEA /* MyFlagIQ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E132159144DDB55003BDDEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E13216A144DDB56003BDDEA /* InfoPlist.strings in Resources */,
+				1E132173144DDB56003BDDEA /* MainWindow.xib in Resources */,
+				1E132179144DDB56003BDDEA /* MyFlagIQViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E132157144DDB55003BDDEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E13216D144DDB56003BDDEA /* main.m in Sources */,
+				1E132170144DDB56003BDDEA /* MyFlagIQAppDelegate.m in Sources */,
+				1E132176144DDB56003BDDEA /* MyFlagIQViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E132168144DDB56003BDDEA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E132169144DDB56003BDDEA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1E132171144DDB56003BDDEA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E132172144DDB56003BDDEA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		1E132177144DDB56003BDDEA /* MyFlagIQViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E132178144DDB56003BDDEA /* en */,
+			);
+			name = MyFlagIQViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E13217A144DDB56003BDDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E13217B144DDB56003BDDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1E13217D144DDB56003BDDEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFlagIQ/MyFlagIQ-Prefix.pch";
+				INFOPLIST_FILE = "MyFlagIQ/MyFlagIQ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1E13217E144DDB56003BDDEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyFlagIQ/MyFlagIQ-Prefix.pch";
+				INFOPLIST_FILE = "MyFlagIQ/MyFlagIQ-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E132155144DDB55003BDDEA /* Build configuration list for PBXProject "MyFlagIQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E13217A144DDB56003BDDEA /* Debug */,
+				1E13217B144DDB56003BDDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E13217C144DDB56003BDDEA /* Build configuration list for PBXNativeTarget "MyFlagIQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E13217D144DDB56003BDDEA /* Debug */,
+				1E13217E144DDB56003BDDEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E132152144DDB55003BDDEA /* Project object */;
+}
